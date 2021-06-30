@@ -19,7 +19,7 @@ public class App
         int mes = Integer.parseInt(fecha.substring(++indice,indice2));
         int anio = Integer.parseInt(fecha.substring(++indice2,fecha.length()));
         int suerte = dia + mes + anio ;
-        System.out.println(mes);
+        System.out.println(suerte);
         input.close();
 
     }
